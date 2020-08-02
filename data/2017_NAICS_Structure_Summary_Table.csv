@@ -1,0 +1,25 @@
+﻿Sector,Name,value,Subsectors (3-digit),Industry Groups (4-digit),NAICS Industries (5-digit)
+11,"Agriculture, Forestry, Fishing and Hunting",133,5,19,42
+21,"Mining, Quarrying, and Oil and Gas Extraction",363,3,5,11
+22,Utilities,294,1,3,6
+23,Construction,1060,3,10,28
+31,Manufacturing,570,21,86,180
+32,Manufacturing,1939,21,86,180
+33,Manufacturing,13242,21,86,180
+42,Wholesale Trade,1366,3,19,71
+44,Retail Trade,814,12,27,57
+45,Retail Trade,4735,12,27,57
+48,Transportation and Warehousing,377,11,29,42
+49,Transportation and Warehousing,237,11,29,42
+51,Information,10321,6,11,25
+52,Finance and Insurance,8322,5,11,31
+53,Real Estate and Rental and Leasing,641,3,8,17
+54,"Professional, Scientific, and Technical Services",64927,1,9,35
+55,Management of Companies and Enterprises,587,1,1,1
+56,Administrative and Support and Waste Management and Remediation Services,1534,2,11,29
+61,Educational Services,12581,1,7,12
+62,Health Care and Social Assistance,6108,4,18,30
+71,"Arts, Entertainment, and Recreation",176,3,9,23
+72,Accommodation and Food Services,244,2,6,10
+81,Other Services (except Public Administration),434,4,14,30
+92,Public Administration,241,8,8,29
