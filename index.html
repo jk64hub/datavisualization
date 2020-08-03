@@ -5,18 +5,25 @@
 layout: default
 ---
 
-<style>
-    .container > div {
-        float: left;
-    }
-    </style>
-        <script src="https://d3js.org/d3.v4.js"></script>
-        <div id="my_dataviz"></div>
-        <div class="container">
-            <div id="timeline_header" class="col-1"></div>
-        
-            <div id="barchart_visual" class="col-2"></div>
-        </div>
-        <script src="./barchart.js"></script>
-        <script src="./treemap.js"></script>
-    
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-scale.v3.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<div class="row">
+    <div id="treemap" class="col-centered"></div>
+</div>
+<div class="row">
+    <div id="timeline_header" class="col-centered"></div>
+</div>
+<div class="row">
+    <div id="barchart_visual" class="col-centered"></div>
+</div>
+
+
+<script src="./barchart.js"></script>
+<script src="./timeslider.js"></script>
+<script src="./treemap.js"></script>
