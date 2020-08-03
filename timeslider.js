@@ -6,6 +6,7 @@ const initializeTimeFilter = () => {
 
     const onClickHandler = (selectedYear) => {
         loadBarChart(selectedSector, selectedYear);
+        loadLineChart(selectedSector,selectedYear);
     }
 
     for (var i = 0; i <= 10; i++)
