@@ -61,7 +61,7 @@
             .call(d3.axisLeft(y))
 
         //Bars
-        svg.selectAll("myRect")
+        svg.selectAll("rect")
             .data(data)
             .enter()
             .append("rect")
@@ -72,6 +72,11 @@
             .attr("width", function (d) { return x(d.intialsApprovals); })
             .attr("height", y.bandwidth())
             .attr("fill", "#69b3a2")
+
+        svg.selectAll("rect")
+            .append("title")
+            .data(data)
+            .text(d => d.intialsApprovals);
 
     })
 }
