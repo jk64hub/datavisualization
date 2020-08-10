@@ -1,4 +1,6 @@
 <script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-color.v1.min.js"></script>
+<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://d3js.org/d3-scale.v3.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -7,14 +9,19 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<div class="container-fluid" align="center">
-    <div class="row" style="max-width: 80%; align-content: center;">
-        <h2>Specialty Occupation H1 Visa Trends</h2>
-            <p>Over the last few years, the US government was revising the immigration policies and issuing amendments to H1B visa 
-            programs with the intent to create higher wages and employment rates for US workers and protect economic interests. <br>
-            H1B visa program allows US employers to temporarily employ foreign nationals with specialized knowledge in theory and practical applications.
-             Employers across different sectors which include but not limited to the fields of Science, Technology, Engineering, Arts, and Mathematics are impacted by these changes.<br>
-            This visualizations displays the H1B visa trends in various sectors over time and the top ten employers in each sector.
+<div class="container-fluid" style="max-width: 80%; align-content: center;">
+    <div class="row">
+        <h2>US Industries on Immigration Specialized workers</h2>
+        <p>Over the last few years, the US government was revising the immigration policies and issuing amendments to
+            H1B visa
+            programs with the intent to create higher wages and employment rates for US workers and protect economic
+            interests. <br>
+            H1B visa program allows US employers to temporarily employ foreign nationals with specialized knowledge in
+            theory and practical applications.
+            Employers across different sectors which include but not limited to the fields of Science, Technology,
+            Engineering, Arts, and Mathematics are impacted by these changes.<br>
+            This visualizations displays the H1B visa trends in various sectors over time and the top ten employers in
+            each sector.
         </p>
     </div>
     <div class="row">
@@ -23,13 +30,18 @@
     <div class="row">
         <div class="col text-center">
 
-        <div id="timeline_header" class="col-centered"></div>
-    </div>
+            <!-- <div id="timeline_header" class="col-centered"></div> -->
+            <!-- Create the radio button -->
+            <input type="range" name="yearSlider" id=yearSlider min="2009" max="2019" value="2019" step="1">
+
+        </div>
     </div>
     <div class="row">
-        <div id="barchart_visual" class="col-sm-6 col-centered"></div>
+
+        <div id="barchart_visual" class="col-sm-6 col-centered">
+        </div>
         <div id="linechart_visual" class="col-sm-6 col-centered"></div>
-</div>
+    </div>
 </div>
 
 <script src="./barchart.js"></script>

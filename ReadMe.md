@@ -1,0 +1,1 @@
+Launch the browser by running 'jekyll serve' command in the terminal.

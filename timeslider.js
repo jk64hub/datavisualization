@@ -25,7 +25,6 @@ const initializeTimeFilter = () => {
 
 
     }
-    console.log(select);
     document.getElementById('timeline_header').append(select);
 
 
