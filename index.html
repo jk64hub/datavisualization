@@ -27,11 +27,14 @@
     <div class="row">
         <div id="treemap" class="col-centered"></div>
     </div>
-    <div class="row">
-        <div class="text-center" id="yearDiv" style=" margin: 25px; display: none">
-            <label>Time period</label>
+    <div class="row" id="yearDiv" style="margin: 20px; display: none">
+        <div class=" col-sm-6 col-centered">
+            <label>Fiscal Year Slider</label>
             <input text="Select the year" type="range" name="yearSlider" id=yearSlider min="2009" max="2019"
                 value="2019" step="1" />
+        </div>
+        <div class="col-sm-6 col-centered" style="margin-top: 20px;">
+            <input id="playButton" type="button" value="play" />
         </div>
     </div>
     <div class="row">
